@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css">	
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+		<link rel="stylesheet" href="style.css" type="text/css">	
+		<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+		<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	</head>
+	<body>
+	<div id = "costum_cabecalho">	
+		<div id= "logo">
+			<img src="logo.png">
+		</div>
+		<div id = "but">
+			<a class="btn btn-lg btn-primary" href="Cadastro_2.html"><font style="vertical-align: "><font style="vertical-align: inherit;">Cadastre-se </font></font></a>
+			<a class="btn btn-lg btn-primary" href="#" onclick="open('login.html','login.html','status=no,Width=400,Height=300');"><font style="vertical-align: "><font style="vertical-align: inherit;">Login </font></font></a>
+		</div>
+		<svg viewBox="0 0 1920 227" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M0 214.12V0H1920V214.12C1071.09 266.775 689.718 135.802 0 214.12Z" fill="url(#paint0_linear)"/>
+			<defs>
+				<linearGradient id="paint0_linear" x1="960" y1="0" x2="960" y2="227" gradientUnits="userSpaceOnUse">
+					<stop offset="0.938032" stop-color="#364EF0"/>
+					<stop offset="1" stop-color="#1C60A8" stop-opacity="0"/>
+				</linearGradient>
+			</defs>
+		</svg>
+	</div >
+	<br>
+	<div id = "pesq">
+		<form class="col-10 col-lg-10 mb-3 mb-lg-0 me-lg-3">
+    		<input id="pesq1" type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+		</form>
+	</div>
+	<br><br>
+
+	<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="restaurante_exemplo.jpg" class="card-img-top" width="200px" height="250px">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Acessar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="restaurante_exemplo.jpg" class="card-img-top" width="200px" height="250px">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Acessar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="container">
+          	<div class="carousel-caption">            
+          	</div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="restaurante_exemplo.jpg" class="card-img-top" width="200px" height="250px">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Acessar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="restaurante_exemplo.jpg" class="card-img-top" width="200px" height="250px">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Acessar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="container">
+          	<div class="carousel-caption">            
+          	</div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+	<br><br><br>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
+    <div class="container px-4">
+      <div id="icons" class="col-lg-2 col-md-1 mx-auto">
+        <img src="usuarios.png" width="100px" height="75px">
+        <h5> Veja quantas pessoas já estão na fila...</h5>
+        <br>
+        <img src="relogio.png">
+        <h5> Quer saber o tempo de espera? Aqui temos! </h5>
+        <br>
+        <img src="star_completa.png">
+        <h5> Procura recomendações, veja a avaliação dos nossos clientes.</h5>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 mx-auto">
+      <!--imagem de contato-->
+      <h1 class="fw-light">Fila Fácil - Praticidade</h1>
+      <p class="lead text-muted">Visite seus lugares favoritos, saiba os horários mais lotados e guarde seu lugar na fila!</p>
+      <p>
+        <a href="#" class="btn btn-primary my-2">Entrar com código</a>
+        <a href="#" class="btn btn-secondary my-2">Scanear QrCode - Em breve</a>
+      </p>
+    </div>
+    <div class="col-lg-2 col-md-1 mx-auto">
+      <h2>Escolha sua próxima parada</h2><br>
+      <form>
+        <div class="col-md-10">
+          <select id="inputRest" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>  
+        <br>    
+      </form>
+      <!-- usando a barra de pesquisa temos que jogar a localização pro mapa, como fazer isso?-->
+    </div>
+  </div>
+    <div class="container px-1">
+      <iframe width="550px" height="350px" src="perfil_maps.html"></iframe>
+    </div>
+
+	<br><br><br><br>
+	<div id="footer">
+		<img src="logo.png">
+		<br><br>
+		<p>Grupo 12 - PCS3100</p>
+    <br><br>
+	</div>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
